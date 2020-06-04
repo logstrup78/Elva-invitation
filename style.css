@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    background-color: rgb(247, 247, 247);
+}
+
+/*Header*/
+
+ #header{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 75px;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+/*invitation*/
+
+#invite{
+    font-family: 'Montaga', serif;
+    font-size: 1.5em;;
+}
+
+/*Billeder*/
+
+#billeder{
+    
+}
