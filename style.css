@@ -10,7 +10,7 @@ body{
     margin-top: 100px;
     margin-bottom: 75px;
     font-family: 'Architects Daughter', cursive;
-    font-size: 50px;
+    font-size: 4em;
     font-weight: 900;
 }
 
@@ -24,5 +24,22 @@ body{
 /*Billeder*/
 
 #billeder{
-    
+    margin-top: 75px;
+}
+
+.img1{
+    background-color: rgb(244, 233, 255);
+    border: 1px solid black;
+    width: inherit;
+    height: 300px;    
+}
+.img2{
+    background-color: rgb(244, 233, 255);
+    border: 1px solid black;
+    height: 300px;
+}
+.img3{
+    background-color: rgb(244, 233, 255);
+    border: 1px solid black;
+    height: 300px;
 }
