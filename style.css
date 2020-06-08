@@ -1,45 +1,86 @@
-body{
+body {
     margin: 0;
-    background-color: rgb(247, 247, 247);
+    background-color: rgb(253, 231, 231);
 }
 
 /*Header*/
 
- #header{
+#header {
     text-align: center;
     margin-top: 100px;
     margin-bottom: 75px;
-    font-family: 'Architects Daughter', cursive;
-    font-size: 4em;
-    font-weight: 900;
+    font-family: 'Tangerine', cursive;
+    font-size: 6em;
+    font-weight: 700;
 }
 
 /*invitation*/
 
-#invite{
-    font-family: 'Montaga', serif;
-    font-size: 1.5em;;
+#invite {
+    font-family: helvetica, sans-serif;
+    font-size: 1.5em;
+    ;
 }
 
 /*Billeder*/
 
-#billeder{
+#billeder {
     margin-top: 75px;
 }
 
-.img1{
+.img1 {
     background-color: rgb(244, 233, 255);
-    border: 1px solid black;
     width: inherit;
-    height: 300px;    
+    height: 300px;
+    box-shadow: 1px 1px 1px rgb(156, 155, 155);
 }
-.img2{
-    background-color: rgb(244, 233, 255);
-    border: 1px solid black;
+.elva1{
+    width: 100%;
     height: 300px;
 }
-.img3{
+
+.img2 {
     background-color: rgb(244, 233, 255);
-    border: 1px solid black;
     height: 300px;
+    box-shadow: 1px 1px 1px rgb(156, 155, 155);
+}
+
+.img3 {
+    background-color: rgb(244, 233, 255);
+    height: 300px;
+    box-shadow: 1px 1px 1px rgb(156, 155, 155);
+}
+
+/*svar*/
+
+#svar {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.ja {
+    text-align: right;
+}
+
+.nej {
+    text-align: left;
+}
+
+.btn-success {
+    width: 200px;
+    box-shadow: 2px 2px 2px rgb(156, 155, 155);
+}
+
+.btn-danger {
+    width: 200px;
+    box-shadow: 2px 2px 2px rgb(156, 155, 155);
+}
+
+/*Hilsen*/
+
+#hilsen {
+    padding-top: 50px;
+    text-align: center;
+    font-family: helvetica, sans-serif;
+    font-size: 1.5em;
 }
