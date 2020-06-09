@@ -29,8 +29,6 @@ body {
 }
 
 .img1 {
-    background-color: rgb(244, 233, 255);
-    width: inherit;
     height: 300px;
     box-shadow: 1px 1px 1px rgb(156, 155, 155);
 }
