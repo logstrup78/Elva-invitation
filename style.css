@@ -57,35 +57,26 @@ p{
 }
 
 /*svar*/
+.svar{
+    width: 100%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-#svar {
-    margin-top: 100px;
-    margin-bottom: 50px;
 }
-
-.ja {
-    text-align: right;
-}
-
-.nej {
-    text-align: left;
-}
-
-.btn-success {
-    width: 200px;
-    box-shadow: 2px 2px 2px rgb(156, 155, 155);
+.button{
+    margin-left: 160px;
+    margin-top: 30px;
+    border: solid 1px rgb(58, 99, 112);
+    box-shadow: 2px 2px 1px rgb(204, 191, 191);
 }
 
-.btn-danger {
-    width: 200px;
-    box-shadow: 2px 2px 2px rgb(156, 155, 155);
-}
-.tekst{
-    text-align: center;
-    margin-bottom: 20px;
-}
 textarea{
     font-family: helvetica, sans-serif;
+    border: solid 1px lightgray;
+    
+    
 
 }
 
@@ -94,6 +85,6 @@ textarea{
 #hilsen {
     text-align: center;
     font-family: helvetica, sans-serif;
-    font-size: 2em;
+    font-size: 1.7em;
     
 }
