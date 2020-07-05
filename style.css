@@ -3,6 +3,7 @@ body {
     background-color: rgb(253, 231, 231);
 }
 
+
 /*Header*/
 
 #header {
@@ -32,6 +33,7 @@ p{
     margin-top: 150px;
 }
 
+
 .img1 {
     height: 300px;
     box-shadow: 1px 1px 1px rgb(156, 155, 155);
@@ -55,7 +57,11 @@ p{
     height: 300px;
     box-shadow: 1px 1px 1px rgb(156, 155, 155);
 }
-
+@media screen and (min-width: 480px) {
+    .col-md-4 {
+        padding-top: 50px;
+    }
+}
 /*svar*/
 .svar{
     width: 100%;
