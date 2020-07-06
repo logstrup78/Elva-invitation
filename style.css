@@ -32,7 +32,7 @@ p{
 /*Billeder*/
 
 #billeder {
-    margin-top: 150px;
+    margin-top: 70px;
 }
 
 
@@ -53,7 +53,7 @@ p{
 }
 .elva2{    
     height: 300px;
-    width: 350px;
+    width: 100%;
 }
 .img3 {
     height: 300px;
@@ -64,35 +64,20 @@ p{
         padding-top: 50px;
     }
 }
-/*svar*/
-.svar{
-    width: 100%;
-    margin: 50px auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-.button{
-    margin-left: 160px;
-    margin-top: 30px;
-    border: solid 1px rgb(58, 99, 112);
-    box-shadow: 2px 2px 1px rgb(204, 191, 191);
+@media (max-width: 400px){
+    img{
+        height: 100px;
+        width: auto;
+    }
 }
 
-textarea{
-    font-family: helvetica, sans-serif;
-    border: solid 1px lightgray;
-    
-    
-
-}
 
 /*Hilsen*/
 
 #hilsen {
     text-align: center;
     font-family: helvetica, sans-serif;
-    font-size: 1.7em;
+    font-size: 3vw;
+    padding-top: 70px;
     
 }
